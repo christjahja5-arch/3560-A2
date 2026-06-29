@@ -23,12 +23,12 @@ public class User implements UserComponent {
     }
 
 
-    @Override
+ 
     public String getId() { return id; }
 
     //aceepts the visitors
 
-    @Override
+
     public void accept(UserComponentVisitor visitor) {
         visitor.visitUser(this);
     }
