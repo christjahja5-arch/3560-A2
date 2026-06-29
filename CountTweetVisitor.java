@@ -10,7 +10,7 @@ public class CountTweetVisitor implements UserComponentVisitor {
 
 
     public void visitGroup(UserGroup group) {
-       //there isnt any tweets in ghroups
+       //there isnt any tweets in groups
     }
 
     public int getCount() { return count; }
